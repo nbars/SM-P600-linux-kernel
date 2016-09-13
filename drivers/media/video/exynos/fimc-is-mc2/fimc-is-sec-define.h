@@ -97,7 +97,7 @@
 #define FIMC_IS_3L2_SETF			"setfile_3L2.bin"
 #define FIMC_IS_6B2_SETF			"setfile_6b2.bin"
 #define FIMC_IS_6B2_EEPROM_SETF			"setfile_6b2_eeprom.bin"
-#define FIMC_IS_FW_PATH				"/system/vendor/firmware/"
+#define FIMC_IS_FW_PATH				"/lib/firmware/"
 #define FIMC_IS_FW_DUMP_PATH			"/data/"
 
 #define FIMC_IS_FW_BASE_MASK			((1 << 26) - 1)
