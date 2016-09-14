@@ -688,7 +688,7 @@ CONFIG_ALIGNMENT_TRAP=y
 # CONFIG_USE_OF is not set
 CONFIG_ZBOOT_ROM_TEXT=0
 CONFIG_ZBOOT_ROM_BSS=0
-CONFIG_CMDLINE="loop_root=/dev/mmcblk0p21:/media/arch.img consoleblank=0 selinux=0 enforcing=0 debug console=ttySAC2,115200n8"
+CONFIG_CMDLINE="loop_root=/dev/mmcblk0p21:/media/0/linux.img consoleblank=0 selinux=0 enforcing=0 debug console=ttySAC2,115200n8"
 CONFIG_CMDLINE_FROM_BOOTLOADER=y
 # CONFIG_CMDLINE_EXTEND is not set
 # CONFIG_CMDLINE_FORCE is not set
