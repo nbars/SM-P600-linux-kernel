@@ -682,7 +682,7 @@ CONFIG_ALIGNMENT_TRAP=y
 # CONFIG_USE_OF is not set
 CONFIG_ZBOOT_ROM_TEXT=0
 CONFIG_ZBOOT_ROM_BSS=0
-CONFIG_CMDLINE="loop_root=/dev/mmcblk0p21:/media/arch.img consoleblank=0 selinux=0 enforcing=0 debug console=ttySAC2,115200n8 vmalloc=512M androidboot.console=ttySAC2"
+CONFIG_CMDLINE="root=loop:/dev/mmcblk0p21:/media/arch.img consoleblank=0 selinux=0 enforcing=0 debug console=ttySAC2,115200n8 vmalloc=512M androidboot.console=ttySAC2"
 CONFIG_CMDLINE_FROM_BOOTLOADER=n
 CONFIG_CMDLINE_EXTEND=n
 CONFIG_CMDLINE_FORCE=y
